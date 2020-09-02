@@ -4,7 +4,7 @@
 
 NDK=$ANDROID_NDK_ROOT
 TOOLCHAIN=$NDK/toolchains/llvm/prebuilt/darwin-x86_64
-API=29
+API=23
 
 function build_android() {
   PREFIX=$(pwd)/android/$CPU
